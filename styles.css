@@ -192,14 +192,26 @@ h2 {
 .annoucementsWrapper {
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
     height: 350px;
+}
+
+.trendingWrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .annoucements {
     background-color: white;
     border-radius: 8px;
     padding: 20px 10px;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.20);
+}
+
+.trending {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px 10px;
     box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.20);
 }
 
@@ -226,11 +238,22 @@ h2 {
     border-bottom: 0;
 }
 
-.trendingWrapper {
-    border: 1px solid green;
-}
-
 .people {
     display: flex;
+    margin-top: 10px;
+}
 
+.people:first-of-type {
+    margin-top: 0;
+}
+
+.smProfile {
+    height: 45px;
+    position: relative;
+    top: -5px;
+}
+
+.users>p {
+    font-size: 14px;
+    margin-left: 10px;
 }
